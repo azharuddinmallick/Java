@@ -8,5 +8,6 @@ public class Hello{
         }
         float f=10.6f;
         System.out.println(f);
+        System.out.println("Heyyy");
     }
 }
