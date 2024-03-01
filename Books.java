@@ -1,3 +1,11 @@
+// Create an abstract class Book with the following properties:
+// title (String): Title of the book.
+// author (String): Author of the book.
+// yearOfPublication (int): Year the book was published.
+// Implement abstract methods display() and calculateLateFees(int daysLate).
+// Create two subclasses of Book:
+// Fiction: Represents fiction books. It should have an additional property genre (String).
+// NonFiction: Represents non-fiction books. It should have an additional property topic (String).
 abstract class Book {
     private String title;
     private String author;
