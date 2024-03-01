@@ -6,6 +6,7 @@
 // Create two subclasses of Book:
 // Fiction: Represents fiction books. It should have an additional property genre (String).
 // NonFiction: Represents non-fiction books. It should have an additional property topic (String).
+
 abstract class Book {
     private String title;
     private String author;
