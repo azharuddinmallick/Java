@@ -3,15 +3,15 @@ public class WithoutTen {
     public static void main(String[] args) {
         int[] nums1 = {1, 10, 10, 2};
         withoutTen(nums1);
-        printArray(nums1);  // Output: [1, 2, 0, 0]
+        printArray(nums1); 
 
         int[] nums2 = {10, 2, 10};
         withoutTen(nums2);
-        printArray(nums2);  // Output: [2, 0, 0]
+        printArray(nums2); 
 
         int[] nums3 = {1, 99, 10};
         withoutTen(nums3);
-        printArray(nums3);  // Output: [1, 99, 0]
+        printArray(nums3);  
     }
 
     public static void withoutTen(int[] nums) {
