@@ -1,4 +1,4 @@
-public class WithoutTenExample {
+public class WithoutTen {
 
     public static void main(String[] args) {
         int[] nums1 = {1, 10, 10, 2};
