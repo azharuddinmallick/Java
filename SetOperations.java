@@ -1,3 +1,15 @@
+// Suppose you are given two sets of integers, A and B, represented as HashSet objects in Java. You are required to implement a Java program that performs the following operations:
+
+// Calculate the intersection of sets A and B.
+// Determine if set A is a subset of set B.
+// Calculate the union of sets A and B.
+// Your program should include the following methods:
+
+// calculateIntersection(HashSet<Integer> setA, HashSet<Integer> setB): This method takes two HashSet objects setA and setB as input and returns a new HashSet containing the intersection of setA and setB.
+// isSubset(HashSet<Integer> setA, HashSet<Integer> setB): This method takes two HashSet objects setA and setB as input and returns true if setA is a subset of setB, otherwise returns false.
+// calculateUnion(HashSet<Integer> setA, HashSet<Integer> setB): This method takes two HashSet objects setA and setB as input and returns a new HashSet containing the union of setA and setB.
+
+
 import java.util.HashSet;
 
 public class SetOperations {
